@@ -13,6 +13,7 @@ public class RenombraControl implements ActionListener, KeyListener, MouseListen
   public RenombraControl(){
     RE = new vRenamer();
     RE.dibujaGui(this);
+    
   }
   @Override
   public void keyTyped(KeyEvent e){
