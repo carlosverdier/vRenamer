@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.10" class="java.beans.XMLDecoder">
+ <object class="vrenamer.vDatos">
+  <void property="IAtrib">
+   <array class="int" length="5"/>
+  </void>
+  <void property="aleaSel">
+   <string>with length:</string>
+  </void>
+  <void property="archDesde">
+   <array class="java.lang.String" length="15"/>
+  </void>
+  <void property="archHasta">
+   <array class="java.lang.String" length="15"/>
+  </void>
+  <void property="archTextoDesde">
+   <array class="java.lang.String" length="15"/>
+  </void>
+  <void property="archTextoHasta">
+   <array class="java.lang.String" length="15"/>
+  </void>
+  <void property="case">
+   <boolean>true</boolean>
+  </void>
+  <void property="checkAlea">
+   <boolean>false</boolean>
+  </void>
+  <void property="checkAtri">
+   <boolean>false</boolean>
+  </void>
+  <void property="checkMay">
+   <boolean>false</boolean>
+  </void>
+  <void property="checkNorma">
+   <boolean>false</boolean>
+  </void>
+  <void property="checkNum">
+   <boolean>false</boolean>
+  </void>
+  <void property="checkReem">
+   <boolean>false</boolean>
+  </void>
+  <void property="ckExtension">
+   <boolean>false</boolean>
+  </void>
+  <void property="ckSepara">
+   <boolean>true</boolean>
+  </void>
+  <void property="comArchivos">
+   <array class="int" length="15"/>
+  </void>
+  <void property="comCamara">
+   <array class="int" length="15"/>
+  </void>
+  <void property="comCarpeta">
+   <array class="int" length="15"/>
+  </void>
+  <void property="comFecha">
+   <array class="int" length="15"/>
+  </void>
+  <void property="comFechaMeta">
+   <array class="int" length="15"/>
+  </void>
+  <void property="comFinal">
+   <array class="int" length="15"/>
+  </void>
+  <void property="comMusica">
+   <array class="int" length="15"/>
+  </void>
+  <void property="comSepFecha">
+   <array class="int" length="15"/>
+  </void>
+  <void property="contador">
+   <int>2</int>
+  </void>
+  <void property="derElimina">
+   <boolean>false</boolean>
+  </void>
+  <void property="derInserta">
+   <boolean>false</boolean>
+  </void>
+  <void property="derTrimInserta">
+   <boolean>false</boolean>
+  </void>
+  <void property="esActivo">
+   <array class="boolean" length="15">
+    <void index="0">
+     <boolean>true</boolean>
+    </void>
+    <void index="1">
+     <boolean>true</boolean>
+    </void>
+   </array>
+  </void>
+  <void property="esSeleccionado">
+   <array class="boolean" length="15">
+    <void index="0">
+     <boolean>true</boolean>
+    </void>
+    <void index="1">
+     <boolean>true</boolean>
+    </void>
+   </array>
+  </void>
+  <void property="estadoContador">
+   <array class="int" length="15">
+    <void index="0">
+     <int>2</int>
+    </void>
+    <void index="1">
+     <int>1</int>
+    </void>
+   </array>
+  </void>
+  <void property="excluye">
+   <boolean>false</boolean>
+  </void>
+  <void property="grupoRenombra">
+   <string>combinadas</string>
+  </void>
+  <void property="normaCeros">
+   <string>1</string>
+  </void>
+  <void property="normaPosicion">
+   <string>1</string>
+  </void>
+  <void property="normalizaTrim">
+   <string>1</string>
+  </void>
+  <void property="numeraCeros">
+   <array class="int" length="15">
+    <void index="1">
+     <int>2</int>
+    </void>
+   </array>
+  </void>
+  <void property="numeraEmpieza">
+   <array class="java.lang.String" length="15">
+    <void index="1">
+     <string>1</string>
+    </void>
+   </array>
+  </void>
+  <void property="numeraSalto">
+   <array class="java.lang.String" length="15">
+    <void index="1">
+     <string>1</string>
+    </void>
+   </array>
+  </void>
+  <void property="numerosEn">
+   <string>1</string>
+  </void>
+  <void property="numerosPosicion">
+   <string>1</string>
+  </void>
+  <void property="numerosSalto">
+   <string>1</string>
+  </void>
+  <void property="opcionNumeracion">
+   <array class="int" length="15"/>
+  </void>
+  <void property="reemDos">
+   <string></string>
+  </void>
+  <void property="reemUno">
+   <string></string>
+  </void>
+  <void property="secuenciaTipo">
+   <array class="int" length="15"/>
+  </void>
+  <void property="secuenciaTipoCase">
+   <array class="int" length="15"/>
+  </void>
+  <void property="selecCampos">
+   <array class="int" length="15"/>
+  </void>
+  <void property="spAleatorio">
+   <string>1</string>
+  </void>
+  <void property="spDesde">
+   <string>1</string>
+  </void>
+  <void property="spHasta">
+   <string>5</string>
+  </void>
+  <void property="spInserta">
+   <string>1</string>
+  </void>
+  <void property="spSeccion">
+   <array class="java.lang.String" length="15">
+    <void index="0">
+     <string>1</string>
+    </void>
+   </array>
+  </void>
+  <void property="texInserta">
+   <string></string>
+  </void>
+  <void property="txtCampos">
+   <array class="java.lang.String" length="15">
+    <void index="0">
+     <string>_</string>
+    </void>
+    <void index="1">
+     <string>_</string>
+    </void>
+    <void index="2">
+     <string>_</string>
+    </void>
+   </array>
+  </void>
+  <void property="txtCorte">
+   <array class="java.lang.String" length="15">
+    <void index="0">
+     <string>-</string>
+    </void>
+   </array>
+  </void>
+  <void property="txtExt">
+   <string></string>
+  </void>
+  <void property="txtFiltro">
+   <string></string>
+  </void>
+  <void property="txtSepara">
+   <string>_</string>
+  </void>
+  <void property="txtSym">
+   <string>_-[(</string>
+  </void>
+  <void property="txtTexto">
+   <array class="java.lang.String" length="15">
+    <void index="2">
+     <string>a</string>
+    </void>
+   </array>
+  </void>
+ </object>
+</java>

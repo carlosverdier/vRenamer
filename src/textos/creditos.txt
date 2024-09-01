@@ -1,0 +1,23 @@
+Carlos Verdier Santiago
+    Encargado y desarrollador
+
+Drew Noakes
+    Librería Metadata-extractor
+
+Paul Taylor
+    Librería Jaudiotagger
+
+Coobird
+    Librería Thumbnailator
+
+Antonio Freixas
+    Librería JCalendar
+
+Eirik Bjørsnøs
+    Librería Simplericity
+
+Christopher Deckers
+    Librería DJ-Swing-Suite
+
+Timothy Wall
+    Librería Furbelow

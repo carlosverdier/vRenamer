@@ -1,0 +1,23 @@
+Carlos Verdier Santiago
+    Main developer
+
+Drew Noakes
+    Metadata-extractor Library
+
+Paul Taylor
+    Jaudiotagger Library
+
+Coobird
+    Thumbnailator Library
+
+Antonio Freixas
+    JCalendar Library
+
+Eirik Bjørsnøs
+    Simplericity Library
+
+Christopher Deckers
+    DJ-Swing-Suite Library
+
+Timothy Wall
+    Furbelow Library

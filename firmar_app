@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Configura tu identificador de firma aquí
+DEVELOPER_ID="Developer ID Application: Ediciones Distribuciones y Aplicaciones Periodicas, SL"
+
+# Ruta a tu aplicación .app
+APP_PATH="/Users/carlos/Desktop/DEV4775/Users/imac/NetBeansProjects/vRenamer/vRenamer.app"
+
+# Comprobar si la aplicación existe
+if [ ! -d "$APP_PATH" ]; then
+  echo "La ruta especificada no es una aplicación válida: $APP_PATH"
+  exit 1
+fi
+
+# Firma cada archivo ejecutable dentro de la aplicación
+find "$APP_PATH" -type f -exec bash -c '
+  for file_path in "$@"; do
+    echo "Firmando: $file_path"
+    /usr/bin/codesign --options=runtime --force --timestamp --entitlements /Users/carlos/Desktop/DEV4775/Users/imac/NetBeansProjects/vRenamer/vRenamer.entitlements --sign "'"$DEVELOPER_ID"'" "$file_path"
+  done
+' bash {} +
+
+# Firmar la aplicación principal
+echo "Firmando: $APP_PATH"
+/usr/bin/codesign --options=runtime --force --timestamp --entitlements /Users/carlos/Desktop/DEV4775/Users/imac/NetBeansProjects/vRenamer/vRenamer.entitlements --sign "$DEVELOPER_ID" "$APP_PATH"
+
+echo "Firma completada para: $APP_PATH"
+
